@@ -1,0 +1,7 @@
+services:
+  restTEST-pro-messiEdition:
+    image: resttest-pro-messiedition
+    ports:
+      - 3008:3008
+    volumes: 
+      - /mnt/restTEST-pro-messiEdition/app/data
